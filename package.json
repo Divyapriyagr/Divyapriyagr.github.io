@@ -1,0 +1,17 @@
+{
+  "name": "clothing-store-website",
+  "version": "1.0.0",
+  "description": "Modern e-commerce website for a clothing store",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000",
+    "dev": "npx live-server --port=3000"
+  },
+  "keywords": ["ecommerce", "clothing", "store", "website"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1"
+  }
+}
